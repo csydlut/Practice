@@ -1,0 +1,10 @@
+.\objects\main.o: ..\User\main.c
+.\objects\main.o: ..\FreeRTOS\Source\Include\FreeRTOS.h
+.\objects\main.o: ..\FreeRTOS\Source\Include\task.h
+.\objects\main.o: ..\FreeRTOS\Source\Include\list.h
+.\objects\main.o: ..\FreeRTOS\Source\Include\portmacro.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\main.o: ..\FreeRTOS\Source\Include\FreeRTOSConfig.h
+.\objects\main.o: ..\FreeRTOS\Source\Include\projdefs.h
+.\objects\main.o: ..\FreeRTOS\Source\Include\FreeRTOS.h
