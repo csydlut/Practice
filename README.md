@@ -1,2 +1,2 @@
-# YeHuo_Books
-YeHuo Books and Pracitice.
+# YeHuo_Pracitce
+YeHuo Pracitice code repository.
