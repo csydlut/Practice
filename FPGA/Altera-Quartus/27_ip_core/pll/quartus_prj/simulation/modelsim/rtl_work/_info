@@ -1,0 +1,107 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/GitRepository/YeHuo_Books/FPGA/Pracitice/Altera-Quartus/27_ip_core/pll/quartus_prj/simulation/modelsim
+T_opt
+!s110 1615513276
+VjAKmkXgo_;;T1GoXJ8cbY0
+04 6 4 work tb_pll fast 0
+=1-e86a6488740b-604ac6bc-5f-2e10
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.6d;65
+vpll
+Z2 !s110 1615513274
+!i10b 1
+!s100 @D::ek?=cWIk5QINMdk;k0
+I^IH;ZSG8CN_m2hocm:^Wi3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1615512496
+8D:/GitRepository/YeHuo_Books/FPGA/Pracitice/Altera-Quartus/27_ip_core/pll/rtl/pll.v
+FD:/GitRepository/YeHuo_Books/FPGA/Pracitice/Altera-Quartus/27_ip_core/pll/rtl/pll.v
+L0 2
+Z4 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z5 !s108 1615513274.000000
+!s107 D:/GitRepository/YeHuo_Books/FPGA/Pracitice/Altera-Quartus/27_ip_core/pll/rtl/pll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GitRepository/YeHuo_Books/FPGA/Pracitice/Altera-Quartus/27_ip_core/pll/rtl|D:/GitRepository/YeHuo_Books/FPGA/Pracitice/Altera-Quartus/27_ip_core/pll/rtl/pll.v|
+!i113 0
+Z6 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+D:/GitRepository/YeHuo_Books/FPGA/Pracitice/Altera-Quartus/27_ip_core/pll/rtl -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vpll_ip
+R2
+!i10b 1
+!s100 DiQ]eO<OcG4@>?dSB8:B20
+IiM1;@W3X0a;`<0=1e=9^T1
+R3
+R0
+w1615512000
+8D:/GitRepository/YeHuo_Books/FPGA/Pracitice/Altera-Quartus/27_ip_core/pll/quartus_prj/pll_ip.v
+FD:/GitRepository/YeHuo_Books/FPGA/Pracitice/Altera-Quartus/27_ip_core/pll/quartus_prj/pll_ip.v
+L0 39
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/GitRepository/YeHuo_Books/FPGA/Pracitice/Altera-Quartus/27_ip_core/pll/quartus_prj/pll_ip.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GitRepository/YeHuo_Books/FPGA/Pracitice/Altera-Quartus/27_ip_core/pll/quartus_prj|D:/GitRepository/YeHuo_Books/FPGA/Pracitice/Altera-Quartus/27_ip_core/pll/quartus_prj/pll_ip.v|
+!i113 0
+R6
+!s92 -vlog01compat -work work +incdir+D:/GitRepository/YeHuo_Books/FPGA/Pracitice/Altera-Quartus/27_ip_core/pll/quartus_prj -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vpll_ip_altpll
+Z7 !s110 1615513275
+!i10b 1
+!s100 AQ4fO_NfRSPi;H2;[4=[Z0
+IojU;_R2ji33cSL>[0GmT20
+R3
+R0
+w1615513080
+8D:/GitRepository/YeHuo_Books/FPGA/Pracitice/Altera-Quartus/27_ip_core/pll/quartus_prj/db/pll_ip_altpll.v
+FD:/GitRepository/YeHuo_Books/FPGA/Pracitice/Altera-Quartus/27_ip_core/pll/quartus_prj/db/pll_ip_altpll.v
+L0 29
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/GitRepository/YeHuo_Books/FPGA/Pracitice/Altera-Quartus/27_ip_core/pll/quartus_prj/db/pll_ip_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GitRepository/YeHuo_Books/FPGA/Pracitice/Altera-Quartus/27_ip_core/pll/quartus_prj/db|D:/GitRepository/YeHuo_Books/FPGA/Pracitice/Altera-Quartus/27_ip_core/pll/quartus_prj/db/pll_ip_altpll.v|
+!i113 0
+R6
+!s92 -vlog01compat -work work +incdir+D:/GitRepository/YeHuo_Books/FPGA/Pracitice/Altera-Quartus/27_ip_core/pll/quartus_prj/db -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtb_pll
+R7
+!i10b 1
+!s100 ZShKTK=@lhOFI43aac63B2
+IW]7Gm4S3a@LFFX`?eYKQ`0
+R3
+R0
+w1615513060
+8D:/GitRepository/YeHuo_Books/FPGA/Pracitice/Altera-Quartus/27_ip_core/pll/quartus_prj/../sim/tb_pll.v
+FD:/GitRepository/YeHuo_Books/FPGA/Pracitice/Altera-Quartus/27_ip_core/pll/quartus_prj/../sim/tb_pll.v
+L0 3
+R4
+r1
+!s85 0
+31
+!s108 1615513275.000000
+!s107 D:/GitRepository/YeHuo_Books/FPGA/Pracitice/Altera-Quartus/27_ip_core/pll/quartus_prj/../sim/tb_pll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GitRepository/YeHuo_Books/FPGA/Pracitice/Altera-Quartus/27_ip_core/pll/quartus_prj/../sim|D:/GitRepository/YeHuo_Books/FPGA/Pracitice/Altera-Quartus/27_ip_core/pll/quartus_prj/../sim/tb_pll.v|
+!i113 0
+R6
+!s92 -vlog01compat -work work +incdir+D:/GitRepository/YeHuo_Books/FPGA/Pracitice/Altera-Quartus/27_ip_core/pll/quartus_prj/../sim -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
