@@ -1,32 +1,83 @@
-# Prerequisites
-*.d
+# Private settings
+private_settings.py
 
 # Compiled Object files
 *.slo
 *.lo
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
+tmp/
 
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
 
 # Compiled Static libraries
 *.lai
 *.la
 *.a
-*.lib
 
-# Executables
-*.exe
+# Python
+*.py[cod]
+
+# Eclipse Project Files
+.cproject
+.project
+.pydevproject
+
+# uVision generated files
+*.uvopt
+*.uvgui.*
+*.uvguix.*
+*.TMP
+*.scvd
+
+*.plg
+*.map
+*.lst
+*.lnp
+*.htm
+*.dep
+*.d
+*.crf
+*.bak
+
+*.axf
+*.S19
+*.bin
+*.hex
+*.dep
+*.FLM
+*.iex
+
+# JLink files
+JLink*.*
+
+# Output directories
+Output
+Lst
+Obj
+
+# cscope
+cscope.*
+
+# PyCharm project files
+.idea
+
+# ctags
+tags
+
+# Doxygen tags and html output
+*.tag
+html
+debug.txt
+/【固件库】STM32F10x_StdPeriph_Lib_V3.5.0
+keilkill.bat
+settings
+
+#IAR files
+
 *.out
-*.app
+*.sim
+*.log
+*.ld
+
