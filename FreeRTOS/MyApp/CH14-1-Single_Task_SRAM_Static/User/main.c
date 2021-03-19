@@ -25,6 +25,22 @@
 #include "task.h"
 
 /**
+ * @brief  BSP_Init
+ *         板级外设初始化，所有板子上的初始化均可放在这个函数里面
+ * @param
+ * @retval 
+ */
+static void BSP_Init(void)
+{
+  NVIC_PriorityGroupConfig( NVIC_PRIORITYGROUP_4 );
+
+  LED_GPIO_Config();
+
+  USART_Config();
+}
+
+
+/**
   * @brief  主函数
   * @param  无
   * @retval 无
