@@ -1,44 +1,0 @@
-Dependencies for Project 'YH-FreeRTOS', Target 'Target 1': (DO NOT MODIFY !)
-CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
-F (..\User\main.c)(0x60420B55)(--c99 --gnu -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\FreeRTOS\Source\Include -I ..\FreeRTOS\Source\Include-I.\RTE\_Target_1-IC:\Users\csydl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\csydl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="531" -D_RTE_ -DARMCM3 -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (..\FreeRTOS\Source\Include\FreeRTOS.h)(0x604208F8)
-I (..\FreeRTOS\Source\Include\task.h)(0x604209BA)
-I (..\FreeRTOS\Source\Include\list.h)(0x60408E33)
-I (..\FreeRTOS\Source\Include\portmacro.h)(0x6041F638)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (..\FreeRTOS\Source\Include\FreeRTOSConfig.h)(0x60420987)
-I (..\FreeRTOS\Source\Include\projdefs.h)(0x60409987)
-F (..\FreeRTOS\Source\list.c)(0x60407EDB)(--c99 --gnu -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\FreeRTOS\Source\Include -I ..\FreeRTOS\Source\Include-I.\RTE\_Target_1-IC:\Users\csydl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\csydl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="531" -D_RTE_ -DARMCM3 -D_RTE_-o .\objects\list.o --omf_browse .\objects\list.crf --depend .\objects\list.d)
-I (..\FreeRTOS\Source\Include\list.h)(0x60408E33)
-I (..\FreeRTOS\Source\Include\portmacro.h)(0x6041F638)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (..\FreeRTOS\Source\Include\FreeRTOSConfig.h)(0x60420987)
-F (..\FreeRTOS\Source\port.c)(0x6041FC25)(--c99 --gnu -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\FreeRTOS\Source\Include -I ..\FreeRTOS\Source\Include-I.\RTE\_Target_1-IC:\Users\csydl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\csydl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="531" -D_RTE_ -DARMCM3 -D_RTE_-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
-I (..\FreeRTOS\Source\Include\port.h)(0x6041FEBF)
-I (..\FreeRTOS\Source\Include\portmacro.h)(0x6041F638)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (..\FreeRTOS\Source\Include\FreeRTOSConfig.h)(0x60420987)
-I (..\FreeRTOS\Source\Include\projdefs.h)(0x60409987)
-F (..\FreeRTOS\Source\task.c)(0x60420A66)(--c99 --gnu -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\FreeRTOS\Source\Include -I ..\FreeRTOS\Source\Include-I.\RTE\_Target_1-IC:\Users\csydl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\csydl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="531" -D_RTE_ -DARMCM3 -D_RTE_-o .\objects\task.o --omf_browse .\objects\task.crf --depend .\objects\task.d)
-I (..\FreeRTOS\Source\Include\task.h)(0x604209BA)
-I (..\FreeRTOS\Source\Include\list.h)(0x60408E33)
-I (..\FreeRTOS\Source\Include\portmacro.h)(0x6041F638)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
-I (..\FreeRTOS\Source\Include\FreeRTOSConfig.h)(0x60420987)
-I (..\FreeRTOS\Source\Include\projdefs.h)(0x60409987)
-I (..\FreeRTOS\Source\Include\FreeRTOS.h)(0x604208F8)
-F (..\Doc\Readme.txt)(0x60376230)()
-F (RTE\Device\ARMCM3\startup_ARMCM3.s)(0x60376230)(--cpu Cortex-M3 --li -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\csydl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\csydl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include--pd "__UVISION_VERSION SETA 531" --pd "_RTE_ SETA 1" --pd "ARMCM3 SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_armcm3.lst --xref -o .\objects\startup_armcm3.o --depend .\objects\startup_armcm3.d)
-F (RTE\Device\ARMCM3\system_ARMCM3.c)(0x60376230)(--c99 --gnu -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\FreeRTOS\Source\Include -I ..\FreeRTOS\Source\Include-I.\RTE\_Target_1-IC:\Users\csydl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\csydl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="531" -D_RTE_ -DARMCM3 -D_RTE_-o .\objects\system_armcm3.o --omf_browse .\objects\system_armcm3.crf --depend .\objects\system_armcm3.d)
-I (C:\Users\csydl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include\ARMCM3.h)(0x5E8ED12C)
-I (C:\Users\csydl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (C:\Users\csydl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (C:\Users\csydl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (C:\Users\csydl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
-I (C:\Users\csydl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (C:\Users\csydl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include\system_ARMCM3.h)(0x5E8ED12C)
