@@ -1,5 +1,4 @@
 //org.eclipse.ui.commands/state/com.st.stm32cube.ide.mcu.buildanalyzer.showstate/org.eclipse.ui.commands.radioState=human
-//org.eclipse.ui.commands/state/com.st.stm32cube.ide.mcu.debug.swv.core.start_trace/org.eclipse.ui.commands.toggleState=true
 //org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
 ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.ui.workbenchMisc\tTorg.eclipse.cdt.ui.presentation\tTorg.eclipse.cdt.ui.CEditor.presentation\tTorg.eclipse.debug.ui.presentation\tTorg.eclipse.rse.ui.presentation\tTorg.eclipse.rse.ui.messages.presentation\tTorg.eclipse.rse.ui.remotecommandsview.presentation\tTorg.eclipse.compare.contentmergeviewer.TextMergeViewer\tTorg.eclipse.ui.presentation.default
 ColorsAndFontsPreferencePage.selectedElement=Forg.eclipse.cdt.ui.buildconsole.ConsoleFont
