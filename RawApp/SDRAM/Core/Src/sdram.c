@@ -58,6 +58,23 @@ void SDRAM_Init_Sequence( SDRAM_HandleTypeDef *hsdram )
   SDRAM_Send_CMD(0, FMC_SDRAM_CMD_LOAD_MODE, 1, temp);
 }
 
+void FMC_SDRAM_WriteBuffer( uint8_t *pBuffer, uint32_t WriteAddr, uint32_t number )
+{
+	for ( ; number != 0 ; number--) {
+		*( uint8_t* ) (Bank5_SDRAM_ADDR + WriteAddr ) = *pBuffer;
+		WriteAddr++;
+		pBuffer++;
+	}
+}
+
+void FMC_SDRAM_ReadBuffer( uint8_t *pBuffer, uint32_t ReadAddr, uint32_t number )
+{
+	for (; number !=0 ; number-- ) {
+		*pBuffer++ = *(uint8_t*)( Bank5_SDRAM_ADDR + ReadAddr );
+		ReadAddr++;
+	}
+}
+
 /**
   * @}
   */
