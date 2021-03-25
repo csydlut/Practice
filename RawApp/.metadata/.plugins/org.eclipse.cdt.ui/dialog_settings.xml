@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<item key="LastUsedSourceTemplate" value="Default C source template"/>
 	<item key="LastUsedHeaderTemplate" value="Default C header template"/>
+	<item key="LexicalSortingAction.sort" value="true"/>
 	<section name="completion_proposal_size">
 	</section>
 	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
@@ -10,6 +11,8 @@
 		<item key="caseSensitive" value="false"/>
 		<item key="searchFlags" value="227191"/>
 		<list key="previousPatterns">
+			<item value="__io_putchar"/>
+			<item value="EXTI_TypeDef"/>
 			<item value="HAL_SDRAM_MspInit"/>
 			<item value="HAL_TIM_Base_Start_IT"/>
 		</list>
@@ -17,7 +20,7 @@
 	<section name="org.eclipse.cdt.ui.OPEN_ACTION_SELECTION_DIALOG_SECTION">
 		<item key="DIALOG_X_ORIGIN" value="1578"/>
 		<item key="DIALOG_Y_ORIGIN" value="635"/>
-		<item key="DIALOG_WIDTH" value="594"/>
+		<item key="DIALOG_WIDTH" value="1274"/>
 		<item key="DIALOG_HEIGHT" value="684"/>
 		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
 	</section>
