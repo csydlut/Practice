@@ -1,7 +1,5 @@
 # Private settings
 private_settings.py
-.metadata/
-.settings/
 
 # Compiled Object files
 *.slo
